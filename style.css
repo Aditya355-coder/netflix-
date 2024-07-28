@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
+
+* {
+
+
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url("assets/image/bgimage.jpg");
+    background-position: center center;
+    height: 85vh;
+    width: 100;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+
+.main .box {
+
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 71px;
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+nav img {
+    height: 10vh;
+    width: 12vw;
+    position: relative;
+    z-index: 13;
+
+}
+
+.main .btn {
+    color: white;
+    height: 6vh;
+    width: 7vw;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(32, 32, 32);
+
+}
+
+.main .btn1 {
+    background-color: #e50914;
+    width: 5vw;
+
+}
+
+
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+}
+
+
+.hero span:first-child {
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.hero span:nth-child(2) {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero span:nth-child(3) {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero input {
+
+    height: 8vh;
+    width: 25vw;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(247, 247, 247, 0.1);
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 8px;
+}
+
+.hero .btn3 {
+    color: white;
+    height: 8vh;
+    width: 11vw;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(31, 27, 27);
+}
+
+body {
+    background-color: black;
+}
+
+.first span:first-child {
+    color: white;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.first span:nth-child(2) {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.first .dolu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+
+.first {
+    padding: 65px;
+
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+
+.first .video1 {
+    height: 256px;
+    width: 500px;
+    margin: -365px 70px;
+}
+
+.second {
+
+    padding: 60px;
+
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.second span:first-child {
+    color: white;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.second span:nth-child(2) {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.second .bolu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.video2 {
+    height: 227px;
+    width: 500px;
+    margin: -272px 73px
+}
+
+footer div {
+    padding: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 43px;
+    text-align: center;
+}
+
+footer nav {
+    background-color: #2d2d2d;
+    width: 80vw;
+
+
+}
+
+.imgchill {
+    height: 65vh;
+}
+
+footer span {
+    color: white;
+    font-size: 27px;
+
+}
+
+footer span img {
+    height: 10vh;
+    width: 4vw;
+}
+
+.toll {
+
+    font-size: 51px;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+
+
+
+}
+
+.freebox {
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px 0px;
+    height: 5vh;
+    width: 70vw;
+    margin: 11px auto;
+    justify-content: space-between;
+
+}
+
+.freebox span {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 11px 27px;
+}
+
+.dumbo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 96vw;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+
+.dumbo div:nth-child(1) {
+    color: white;
+    font-size: 20px;
+    padding: 9px;
+}
+
+.dumbo div:nth-child(2) {
+    padding: 8px;
+
+}
+
+.dumbo input {
+    border: 2px white;
+    height: 8vh;
+    width: 25vw;
+    color: white;
+
+    border-radius: 4px;
+    background-color: rgba(247, 247, 247, 0.1);
+
+}
+
+.dumbo>input::placeholder {
+    color: white;
+
+    padding-left: 8px;
+
+}
+
+.dumbo button {
+
+    color: white;
+    height: 8vh;
+    cursor: pointer;
+    width: 8vw;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(228, 5, 5);
+
+
+}
+
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+
+
+.footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+
+.footer .questions {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer>.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: space-between;
+}
+
+.footer-item a {
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1300px) {
+   
+
+
+
+
+
+
+    .hero input {
+        height: 27px;
+        font-size: 9px;
+
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item {
+        align-items: center;
+    }
+
+    
+ 
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .hero span{
+        font-size: 29px;
+    display: flex;
+    padding: 0px 39px ;
+    }
+    
+    
+    nav img {
+        height: 6vh;
+        width: 21vw;
+    }
+
+    .main .btn {
+        height: 3vh;
+        width: 10vw;
+        font-size: x-small;
+    }
+
+
+    .hero .btn3 {
+        height: 4vh;
+        width: 18vw;
+        font-size: 11px;
+    }
+
+    .dumbo button {
+        height: 3vh;
+        width: 15vw;
+        font-size: 9px;
+
+    }
+
+    .dumbo input {
+        height: 3vh;
+        width: 23vw;
+        font-size: 9px;
+    }
+
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}

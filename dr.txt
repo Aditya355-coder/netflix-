@@ -1,0 +1,16 @@
+ <nav>
+            <div>Where i can watch?</div>
+            <div><img src="D:\aditya\project1\assets\image\icons8-plus-math-50.png"></div>
+        </nav>
+        <nav>
+            <div>How do i cancel?</div>
+            <div><img src="D:\aditya\project1\assets\image\icons8-plus-math-50.png"></div>
+        </nav>
+        <nav>
+            <div>What can i wach on Netflix?</div>
+            <div><img src="D:\aditya\project1\assets\image\icons8-plus-math-50.png"></div>
+        </nav>
+        <nav>
+            <div>Is netflix is goog for Kids?</div>
+            <div><img src="D:\aditya\project1\assets\image\icons8-plus-math-50.png"></div>
+        </nav>
